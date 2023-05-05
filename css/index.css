@@ -1,0 +1,40 @@
+.navbar-brand {
+  font-size: 1.5rem;
+  padding-top: 0;
+}
+
+.navbar-nav {
+  column-gap: 3px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.header-bg {
+  position: relative;
+}
+
+.card-flexbox {
+  column-gap: 30px;
+  row-gap: 25px;
+}
+
+.card-flexbox > * {
+  flex: 1 1 auto;
+}
+.header-bg::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #031321a6;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .tvirl-main-img {
+    width: 100%;
+  }
+}
